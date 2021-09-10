@@ -1,0 +1,32 @@
+  152  git config --global user.name "Murad"
+  153   git config --global user.email murad0592@mail.ru
+  154  git init
+  155  echo "hello, world" >> hello.txt
+  156  git add .
+  157  git status
+  158  git commit -m "com1"
+  159  git status
+  160  git branch rating
+  161  git checkout rating
+  162  echo "my new rating" >> rating.txt
+  163  git add rating.txt
+  164  git commit -m "com_rating"
+  165  git status
+  166  git branch comment
+  167  git checkout comment
+  168  echo "comment was added" >> comment.txt
+  169  git status
+  170  git add comment.txt
+  171* git comment -m "com_com"
+  172  git commit -m "com_comment"
+  173  git checkout master
+  174  git status\
+  175  git status
+  176  git merge rating
+  177  git status
+  178  git merge comment
+  179  git status
+  180  git branch -M master
+  181  git remote add origin https://github.com/warcmen/new_repository.git
+  182  git push -u origin master
+  183  history
